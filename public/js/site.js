@@ -11,3 +11,9 @@ function sendEmail (){
 
 	button.open('mailto:test@example.com?subject=subject&body=body');
 }
+
+function goToLinkedIn (){
+	var linkedin = document.getElementById('linkedin-icon');
+
+	linkedin.open('https://www.linkedin.com/in/lindsey-gilmore/', '_system');
+}
