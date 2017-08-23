@@ -51,6 +51,12 @@ h3 {
   font-family: "Quicksand", sans-serif;
 }
 
+h4 {
+  font-size: 20px;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
 
 
 /* Text Styles ============================= */
@@ -117,8 +123,7 @@ footer p {
 
 
 
-/* Navigation
-   ================================================================ */
+/* Navigation ====================== */
 nav {
   text-align: right;
 }
@@ -302,9 +307,11 @@ nav a:hover {
 /* Experience
    ================================================================ */
 
-.experience {
+.projects {
+  display: flex;
+  flex-direction: row;
   overflow: hidden;
-  float: left;
+  // float: left;
   width: 100%;
   margin: 0px;
   padding: 70px 62px;
@@ -320,35 +327,35 @@ nav a:hover {
   height: 700px;
 }
 
-#experienceText h2{
+#projectsText h2{
   padding-top: 90px;
 
 }
 
 
 
-.container-experience {
+.container-projects {
   float: left;
-  width: 33.33333333%;
+  width: 24%;
   background-color: rgba(255, 255, 255, .8);
   box-shadow: 0 0 5px rgba(0,0,0,.75);
   height: 164px;
 }
 
-.experience h2 {
+.projects h2 {
   text-align: center;
   margin-bottom: 40px;
   margin-top: 30px;
   color: white;
 }
 
-.container-experience1 {
-  width: 50%;
-  float: left;
-  text-align: center;
-  background-color: rgba(255, 255, 255, .8);
-  box-shadow: 0 0 5px rgba(0,0,0,.75);
-}
+// .container-experience1 {
+//   width: 50%;
+//   float: left;
+//   text-align: center;
+//   background-color: rgba(255, 255, 255, .8);
+//   box-shadow: 0 0 5px rgba(0,0,0,.75);
+// }
 
 
 /* Skills
@@ -389,21 +396,26 @@ nav a:hover {
    ================================================================ */
 
 .contact {
+  display: flex;
+  flex-direction: column;
+ 
   float: left;
   width: 100%;
   margin: 0px;
-  padding-top: 0px;
-  padding-bottom: 37px;
-  padding-right: 48px;
-  padding-left: 48px;
-  color: #3b3a3a;
+  // padding-top: 0px;
+  // padding-bottom: 37px;
+  // padding-right: 48px;
+  // padding-left: 48px;
+  // color: #3b3a3a;
   text-align: center;
   background-color: #fde5e2;
   height: 620px;
 }
 
 .container-contact {
-  float: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -411,6 +423,17 @@ nav a:hover {
   text-align: center;
   margin-bottom: 40px;
   margin-top: 144px;
+}
+
+.icon-contact-img {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+#connect-button-bottom {
+  width: 200px;
 }
 
 
@@ -503,8 +526,23 @@ nav a:hover {
     overflow: hidden;
 }
 
+.projects{
+  flex-direction: row;
+  padding-top: 1px;
+  height: 800px;
+}
 
+#projectsText h2 {
+  padding-top: 0px;
+}
 
+.container-projects {
+  flex-direction: row;
+  width: 20%;
+
+}
+
+}
 
 
 
