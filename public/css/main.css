@@ -314,7 +314,7 @@ nav a:hover {
   // float: left;
   width: 100%;
   margin: 0px;
-  padding: 70px 62px;
+  padding: 70px 154px;
   padding-bottom: 141px;
   color: #3b3a3a;
   text-align: center;
@@ -328,7 +328,7 @@ nav a:hover {
 }
 
 #projectsText h2{
-  padding-top: 90px;
+  padding-top: 2px;
 
 }
 
@@ -336,10 +336,11 @@ nav a:hover {
 
 .container-projects {
   float: left;
+  justify-content: space-evenly;
   width: 24%;
   background-color: rgba(255, 255, 255, .8);
   box-shadow: 0 0 5px rgba(0,0,0,.75);
-  height: 164px;
+  height: 464px;
 }
 
 .projects h2 {
