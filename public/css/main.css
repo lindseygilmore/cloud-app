@@ -49,6 +49,7 @@ h3 {
   font-size: 25px;
   margin: 0;
   font-family: "Quicksand", sans-serif;
+
 }
 
 h4 {
@@ -64,7 +65,7 @@ h4 {
 a,
 a:visited {
   text-decoration: none;
-  color: white;
+  color: #222222;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -72,6 +73,8 @@ p {
   margin: 0 0 30px;
   font-family: "Quicksand", sans-serif;
 }
+
+h3
 
 
 
@@ -348,6 +351,12 @@ nav a:hover {
   margin-bottom: 40px;
   margin-top: 30px;
   color: white;
+}
+
+.container-projects h3 {
+  color: #222222;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 // .container-experience1 {
