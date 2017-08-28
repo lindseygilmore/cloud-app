@@ -235,12 +235,9 @@ nav a:hover {
    ================================================================ */
 .skills {
   display: inline-flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
   text-align: center;
-  padding: 7px;
+  padding: 184px;
   margin: 0 auto;
   height: 720px;
   
@@ -290,11 +287,6 @@ nav a:hover {
   width: 50px;
 }
 
-.skills h3 {
-  padding-bottom: 39px;
-  padding-left: 20px;
-}
-
 #trello-icon {
   width: 150px;
 }
@@ -311,6 +303,19 @@ nav a:hover {
 #less-icon {
   width: 80px;
   height: 50px;
+}
+
+#skill-header {
+  background-color: #deecde;
+  color: #3b3a3a;
+  height: 41px;
+  width: 164px;
+  text-align: center;
+}
+
+.skill-list {
+  padding: 0px;
+  margin: 0 auto;
 }
 
 
