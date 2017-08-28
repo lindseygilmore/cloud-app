@@ -264,10 +264,10 @@ nav a:hover {
 }
 
 .right {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: center;
+  // flex-wrap: wrap;
   float: right;
   width: 33.33333%;
   padding: 20px;
@@ -286,17 +286,31 @@ nav a:hover {
 }
 
 .skill-icon {
-  height: 72px;
-  width: 72px;
+  height: 50px;
+  width: 50px;
+}
+
+.skills h3 {
+  padding-bottom: 39px;
+  padding-left: 20px;
 }
 
 #trello-icon {
-  width: 200px;
+  width: 150px;
 }
 
 #google-icon {
-  width: 200px;
-  height: 130px;
+  width: 130px;
+  height: 80px;
+}
+
+#sinatra-icon{
+  width: 150px;
+}
+
+#less-icon {
+  width: 80px;
+  height: 50px;
 }
 
 
