@@ -558,10 +558,10 @@ nav a:hover {
 @media screen and (max-width: 620px) {
 //intro
   .blurb{
-    width: 250px;
-    padding: 19px;
-    margin-top: 30%;
-    height: none;
+    padding: 1px;
+    margin-top: 10%;
+    height: 344px;
+    width: 311px;
 
   }
 
