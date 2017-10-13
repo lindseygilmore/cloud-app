@@ -123,8 +123,9 @@ footer p {
 }
 
 .social-icon{
-  width: 35px;
-  height:35px;
+  width: 30px;
+  height:30px;
+  margin-top: 5px;
 }
 
 
@@ -501,7 +502,7 @@ nav a:hover {
 
 .icon-contact-img {
   height: 200px;
-  width: 200px;
+  width: 211px;
   text-align: center;
   padding-left: 20px;
 }
